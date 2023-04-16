@@ -1,0 +1,189 @@
+body {
+  width: 100%;
+  margin: 0;
+}
+hr {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.bg-hero {
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 120vh;
+  background-image: url(./2572007.jpg);
+}
+.bg-hero .main-text {
+  position: absolute;
+  margin: 0;
+  width: 100%;
+  top: 45%;
+  text-align: center;
+  color: white;
+  transform: scale(0.8);
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  background-color: black;
+  height: 80px;
+}
+.navbar > ul {
+  width: 100%;
+  display: inline-block;
+  height: 80px;
+}
+
+.navbar > li {
+  list-style: none;
+  display: inline-block;
+  margin: auto;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  height: 100%;
+  margin-top: 1.1em;
+}
+
+.navbar li > a {
+  padding: 1em 2em;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+.navbar li > a:hover {
+  background-color: aqua;
+  color: black;
+}
+
+.navbar .brand {
+  padding: 0;
+  width: 45px;
+  margin: 1.1em 1em;
+  float: left;
+}
+.navbar .brand > img {
+  width: 60px;
+  height: 60px;
+}
+
+#about {
+  padding: 2em 0;
+}
+
+#about .introduction {
+  text-align: center;
+}
+
+.introduction p {
+  font-size: 1.2em;
+  width: 80%;
+  max-width: 24em;
+  margin: 1em auto;
+  text-align: justify;
+}
+
+.content-portfolio {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.left-content {
+  margin-right: 10%;
+}
+.right-content {
+  margin-left: 10%;
+}
+
+.introduction {
+  font-size: 1.2em;
+  width: 80%;
+  max-width: 24em;
+  margin: 1em auto;
+  text-align: justify;
+}
+
+.my-portfolio {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.text-port {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-size: 32px;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+}
+.img-port {
+  margin: 30px;
+  text-align: center;
+}
+.contact-me {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-size: 32px;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.content-contactus {
+  display: flex;
+  flex-direction: row;
+}
+
+.form {
+  text-align: center;
+  width: 50%;
+}
+.inputan {
+  width: 85%;
+  text-align: left;
+  display: block;
+  margin: 0 auto;
+}
+.inputan > input,
+.inputan > textarea {
+  width: 100%;
+  margin: 0.5em 0;
+  font-size: 1em;
+}
+.about-contact {
+  width: 50%;
+}
+
+.watermark {
+  margin-top: 5%;
+  margin-left: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 20px;
+  background-color: black;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.footer p {
+  color: azure;
+  margin: 0;
+}
